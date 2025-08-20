@@ -28,7 +28,7 @@ export default function About() {
 
       {/* Description */}
       <motion.p
-        className="max-w-3xl text-lg text-gray-700 dark:text-gray-300 text-center mb-12"
+        className="max-w-3xl text-lg text-gray-700 dark:text-gray-400 text-center mb-12"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.8 }}
