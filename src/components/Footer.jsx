@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
-      <nav className="grid grid-flow-col gap-4">
+    <footer className="footer footer-center p-6 md:p-10 bg-base-200 text-base-content rounded">
+      <nav className="flex flex-col md:flex-row gap-2 md:gap-4 items-center">
         <a href="/" className="link link-hover">Accueil</a>
         <a href="/about" className="link link-hover">À propos</a>
         <a href="/projects" className="link link-hover">Projets</a>
@@ -10,7 +10,7 @@ export default function Footer() {
 
       {/* Réseaux sociaux */}
       <nav>
-        <div className="grid grid-flow-col gap-4">
+        <div className="flex gap-4 justify-center">
           <a href="https://github.com/Moro225" target="_blank" rel="noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" 
               width="24" height="24" viewBox="0 0 24 24" 
@@ -53,7 +53,7 @@ export default function Footer() {
       </nav>
 
       {/* Texte */}
-      <aside>
+      <aside className="mt-2 text-center text-sm md:text-base">
         <p>© {new Date().getFullYear()} Oumar Moro — Tous droits réservés</p>
       </aside>
     </footer>
