@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+
 
 export default function Home() {
   return (
@@ -31,18 +33,20 @@ export default function Home() {
         transition={{ delay: 1, duration: 0.8 }}
       >
         <a
-          href="/cv.pdf"
-          target="_blank"
+          href="/CV_MORO_OUMAR.pdf"
           className="btn btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Voir mon CV
         </a>
-        <a
-          href="/projects"
+
+        <Link 
+          to="/projects"
           className="btn btn-outline"
         >
           Voir mes projets
-        </a>
+        </Link>
       </motion.div>
 
       {/* Animation subtile en bas */}
