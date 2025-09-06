@@ -56,14 +56,11 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 0.8 }}
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-8 w-8 text-primary"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-        </svg>
+        <img 
+          className="w-32 h-32 rounded-full border-4 border-primary object-cover"
+          src="/public/photo_de_profil.png" 
+          alt="profil" 
+        />
       </motion.div>
     </section>
   );

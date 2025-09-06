@@ -11,7 +11,7 @@ const projects = [
     description: "Application MERN permettant aux professeurs d’enregistrer la présence et notifier automatiquement les parents des absents.",
     tech: ["MongoDB", "Express", "React", "Node"],
     link: "#", // Démo si tu en as
-    github: "https://github.com/Moro225/attendance-app",
+    github: "https://github.com/Moro225/Present",
   },
   {
     title: "Gestion parc informatique UFHB",
