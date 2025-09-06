@@ -58,7 +58,7 @@ export default function Home() {
       >
         <img 
           className="w-32 h-32 rounded-full border-4 border-primary object-cover"
-          src="/public/photo_de_profil.png" 
+          src="/photo_de_profil.png" 
           alt="profil" 
         />
       </motion.div>
